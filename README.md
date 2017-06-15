@@ -16,6 +16,7 @@ npm install --save react-native-barcode-pdf417
 ### Usage:
 ```js
 import Barcode from "react-native-barcode-pdf417";
+//...
 <Barcode text="123124123" width={250} height={100} />
 
 ```
