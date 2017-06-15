@@ -1,8 +1,18 @@
 {
   "name": "react-native-barcode-pdf417",
-  "version": "1.0.0",
+  "keywords": [
+    "react-native",
+    "barcode",
+    "pdf417"
+  ],
+  "version": "1.0.1",
   "description": "react native component for pdf417 barcode",
   "main": "index.js",
+  "homepage": "https://github.com/GingerBear/react-native-barcode-pdf417",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GingerBear/react-native-barcode-pdf417.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

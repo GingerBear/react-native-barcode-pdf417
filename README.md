@@ -21,3 +21,5 @@ import Barcode from "react-native-barcode-pdf417";
 <Barcode text="123124123" width={250} height={100} />
 
 ```
+
+LICENSE: MIT
