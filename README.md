@@ -1,4 +1,4 @@
-# react-native-barcode-pdf417
+# react-native-barcode-pdf417 [![npm version](https://badge.fury.io/js/react-native-barcode-pdf417.svg)](https://badge.fury.io/js/react-native-barcode-pdf417)
 
 React native component for pdf417 barcode. This module is based on https://github.com/bkuzmic/pdf417-js.
 
