@@ -30,7 +30,6 @@ export default class RNPDF417 extends Component {
       return (
         <View style={[S.loadingContainer, { width, height }]}>
           <ActivityIndicator style={S.loadingIndicator} />
-          <Text>Generating Barcode</Text>
         </View>
       );
     }
@@ -48,12 +47,7 @@ export default class RNPDF417 extends Component {
       line.forEach((code, j) => {
         if (code === "1") {
           shapes.push(
-            <Shape
-              key={`${i}-${j}`}
-              d={`M ${j * w} ${i * h} h ${w} v ${h} h -${w} L ${j * w} ${i *
-                h}`}
-              fill="#000000"
-            />
+            `M ${j * w} ${i * h} h ${w} v ${h} h -${w} L ${j * w} ${i * h}`
           );
         }
       });
@@ -62,7 +56,7 @@ export default class RNPDF417 extends Component {
     return (
       <Surface width={width} height={height}>
         <Group x={0} y={0}>
-          {shapes}
+          <Shape d={shapes} fill="#000000" />
         </Group>
       </Surface>
     );
