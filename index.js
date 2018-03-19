@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from "react";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 import { ART, Text, View, ActivityIndicator, StyleSheet } from "react-native";
 
 const { Group, Shape, Surface } = ART;
