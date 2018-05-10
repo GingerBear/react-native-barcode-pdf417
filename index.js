@@ -1,16 +1,10 @@
-import React, { Component, PropTypes } from "react";
+import React, { Component } from "react";
 import { ART, Text, View, ActivityIndicator, StyleSheet } from "react-native";
 
 const { Group, Shape, Surface } = ART;
 import createPDF417 from "./lib/pdf417-min";
 
 export default class RNPDF417 extends Component {
-  static propTypes = {
-    text: PropTypes.string.isRequired,
-    width: PropTypes.number.isRequired,
-    height: PropTypes.number.isRequired
-  };
-
   state = {
     isLoading: true
   };
