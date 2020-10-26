@@ -17,5 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@react-native-community/art": "^1.2.0"
+  }
 }
