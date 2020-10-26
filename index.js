@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { ART, Text, View, ActivityIndicator, StyleSheet } from "react-native";
+import { Text, View, ActivityIndicator, StyleSheet } from "react-native";
 
-const { Group, Shape, Surface } = ART;
+const { Group, Shape, Surface } = "@react-native-community/art";
 import createPDF417 from "./lib/pdf417-min";
 
 export default class RNPDF417 extends Component {
